@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="MyResume:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/MyResume_jar</output-path>
-    <root id="archive" name="MyResume.jar" />
-  </artifact>
-</component>
