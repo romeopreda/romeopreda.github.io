@@ -53,6 +53,23 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+      var linkAcasa = document.getElementById("linkAcasa");
+      var hrefAcasa = linkAcasa.getAttribute("href");
+      linkAcasa.setAttribute("href", hrefAcasa.split("#")[0]);
+
+      var linkContact = document.getElementById("linkContact");
+      var hrefContact = linkContact.getAttribute("href");
+      linkContact.setAttribute("href", hrefContact.split("#")[0]);
+
+       var linkContact = document.getElementById("linkMagazin");
+       var hrefContact = linkContact.getAttribute("href");
+       linkContact.setAttribute("href", hrefContact.split("#")[0]);
+
+       var linkContact = document.getElementById("linkInformatii");
+       var hrefContact = linkContact.getAttribute("href");
+       linkContact.setAttribute("href", hrefContact.split("#")[0]);
+
+
 
 
 });
